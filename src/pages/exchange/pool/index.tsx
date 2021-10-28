@@ -98,22 +98,23 @@ export default function Pool() {
       </Head>
 
       <div className="p-4 mb-3 space-y-3">
-        <Back />
+        {/* <Back /> */}
 
         <Typography component="h1" variant="h2">
-          {i18n._(t`My Liquidity Positions`)}
+          {/* {i18n._(t`My Liquidity Positions`)} */}
+          Coming soon...
         </Typography>
       </div>
 
-      <Alert
+      {/* <Alert
         title={i18n._(t`Liquidity Provider Rewards`)}
         message={i18n._(t`Liquidity providers earn a 0.25% fee on all trades proportional to their share of
                         the pool. Fees are added to the pool, accrue in real time and can be claimed by
                         withdrawing your liquidity`)}
         type="information"
-      />
+      /> */}
 
-      <div className="p-4 space-y-4 rounded bg-dark-900">
+      {/* <div className="p-4 space-y-4 rounded bg-dark-900">
         <div className="grid grid-flow-row gap-3">
           {!account ? (
             <Web3Connect size="lg" color="blue" className="w-full" />
@@ -122,7 +123,7 @@ export default function Pool() {
               <Dots>{i18n._(t`Loading`)}</Dots>
             </Empty>
           ) : allV2PairsWithLiquidity?.length > 0 ? (
-            <>
+            <> */}
               {/* <div className="flex items-center justify-center">
                   <ExternalLink
                     href={"https://analytics.sushi.com/user/" + account}
@@ -130,7 +131,7 @@ export default function Pool() {
                     Account analytics and accrued fees <span> ↗</span>
                   </ExternalLink>
                 </div> */}
-              {allV2PairsWithLiquidity.map((v2Pair) => (
+              {/* {allV2PairsWithLiquidity.map((v2Pair) => (
                 <FullPositionCard
                   key={v2Pair.liquidityToken.address}
                   pair={v2Pair}
@@ -163,7 +164,7 @@ export default function Pool() {
             )}
           </div>
         </div>
-      </div>
+      </div> */}
     </Container>
   )
 }

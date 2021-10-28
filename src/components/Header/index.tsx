@@ -63,7 +63,7 @@ function AppBar(): JSX.Element {
                             id={`migrate-nav-link`}
                             className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
                           >
-                            {i18n._(t`Migrate`)}
+                            {i18n._(t`Farms`)}
                           </a>
                         </NavLink>
                       )}
@@ -84,7 +84,7 @@ function AppBar(): JSX.Element {
                               id={`lend-nav-link`}
                               className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
                             >
-                              {i18n._(t`Lend`)}
+                              {i18n._(t`Bridge`)}
                             </a>
                           </NavLink>
                           <NavLink href={'/borrow'}>
@@ -92,7 +92,7 @@ function AppBar(): JSX.Element {
                               id={`borrow-nav-link`}
                               className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
                             >
-                              {i18n._(t`Borrow`)}
+                              {i18n._(t`Mydapad`)}
                             </a>
                           </NavLink>
                         </>
